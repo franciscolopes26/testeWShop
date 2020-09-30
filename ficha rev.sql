@@ -15,8 +15,8 @@ CREATE TABLE TipoMulta (
 
 CREATE TABLE Guarda (
    
-    idGuarda varchar(32),
-    NomeGuarda varchar(32)
+   codTipo int,
+    tipoMulta varchar(32)
 );
 select * from guarda;
 insert into guarda VALUES
@@ -27,6 +27,8 @@ insert into guarda VALUES
 insert into TipoMulta VALUES
 ('12','Excesso velocidade'),
 ('88', 'Sem inspeção'),
+('13', 'Desobediência'),
+
 ('13', 'Desobediência'),
 ('25', '25 Passagem vermelho');
 
