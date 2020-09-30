@@ -28,6 +28,8 @@ insert into TipoMulta VALUES
 ('12','Excesso velocidade'),
 ('88', 'Sem inspeção'),
 ('13', 'Desobediência'),
+
+('13', 'Desobediência'),
 ('25', '25 Passagem vermelho');
 
 insert into Multa VALUES
